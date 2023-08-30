@@ -60,8 +60,9 @@ export const qualificationsData = [
   },
   {
     title: "Universidad Juárez del Estado de Durango",
-    location: "Bachelor of Arts - BA, English/Language Arts Teacher Education",
-    description: "Bachelor's in English language teaching",
+    location: "Bachelor of Arts - English Language Teaching",
+    description:
+      "4 year university program focused on linguistics, Pedagogy, Didactics, and ELT Methadologies.",
     icon: React.createElement(LuGraduationCap),
     date: "2013 - 2017",
   },

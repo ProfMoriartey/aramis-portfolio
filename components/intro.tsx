@@ -17,7 +17,7 @@ export default function Intro() {
     <section
       ref={ref}
       id="home"
-      className="flex flex-col sm:flex-row justify-center items-center mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="flex flex-col sm:flex-row justify-center items-center -mt-10 mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex flex-reverse">
         <motion.div
