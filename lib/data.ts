@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import languaTalk from "@/public/languaTalk.png";
+import aiesec from "@/public/aiesec.png";
+import openEnglish from "@/public/openEnglish.png";
 
 export const links = [
   {
@@ -16,16 +16,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Services",
+    hash: "#Services",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Reviews",
+    hash: "#reviews",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Qualifications",
+    hash: "#qualifications",
   },
   {
     name: "Contact",
@@ -33,54 +33,85 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const qualificationsData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Arizona State University",
+    location: "TESOL Certificate",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Focused on teaching approaches and methodologies of English to Speakers of Other Languages.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "AIESEC Global Teacher Internship",
+    location: "English and Spanish Language Teaching",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "International Teaching Internship located in Bursa, Turkey, focused on the teaching of English and Spanish, intercultural communication, and language development.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Hankuk University of Foreign Studies",
+    location: "ESL Language Instructor - Mobility Programme",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "One-semester long Mobility Programme at HUFS in Seoul, South Korea, focused on Linguistics, Materials Development, Intercultural Communication, and English Presentation and Public Speaking.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016",
+  },
+  {
+    title: "Universidad Juárez del Estado de Durango",
+    location: "Bachelor of Arts - BA, English/Language Arts Teacher Education",
+    description: "Bachelor's in English language teaching",
+    icon: React.createElement(LuGraduationCap),
+    date: "2013 - 2017",
   },
 ] as const;
 
-export const projectsData = [
+export const servicesData = [
   {
-    title: "CorpComment",
+    title: "LanguaTalk",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: languaTalk,
   },
   {
-    title: "rmtDev",
+    title: "Open English",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: openEnglish,
   },
   {
-    title: "Word Analytics",
+    title: "Aiesec Program",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: aiesec,
+  },
+] as const;
+
+export const reviewsData = [
+  {
+    name: "Lindsey",
+    country: "USA",
+    description:
+      "Aramis is fantastic. He mixes up learning styles and has made each class interesting. I’m looking forward to all of my future classes!",
+  },
+  {
+    name: "Lyn",
+    country: "USA",
+    description:
+      "Aramis is a great tutor. He is clear and concise and patient. His lesson plans are well thought out and our time is very well spent. He offers thoughtful corrections and suggestions that help my Spanish.",
+  },
+  {
+    name: "Jordan",
+    country: "USA",
+    description:
+      "Knowledgeable, patient, and kind. Personalized lessons make the content equally engaging and useful. I highly recommend Aramis. ",
+  },
+  {
+    name: "Starr",
+    country: "USA",
+    description:
+      "Aramis is well prepared not only with what I need, but also with what I MIGHT need. I appreciate his patience and positive feedback!",
   },
 ] as const;
 

@@ -1,10 +1,10 @@
 import About from "@/components/about";
 import Contact from "@/components/contact";
-import Experience from "@/components/experience";
+import Qualifications from "@/components/qualifications";
 import Intro from "@/components/intro";
-import Projects from "@/components/projects";
+import Services from "@/components/services";
 import SectionDivider from "@/components/section-divider";
-import Skills from "@/components/skills";
+import Reviews from "@/components/reviews";
 
 export default function Home() {
   return (
@@ -12,9 +12,9 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <Projects />
-      <Skills />
-      <Experience />
+      <Services />
+      <Reviews />
+      <Qualifications />
       <Contact />
     </main>
   );

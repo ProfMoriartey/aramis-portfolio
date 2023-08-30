@@ -19,30 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        Greetings! My name is Aramis Soto, from Mexico, and I am an{" "}
+        <span className="font-medium">English and Spanish educator</span> with 8
+        years of experience in the field of teaching, both{" "}
+        <span className="font-medium">online and face-to-face</span>, and with a
+        B.A. in English Language Teaching. I have been a Spanish Tutor in HUFS
+        (Hankuk University Of Foreign Studies) in Seoul,{" "}
+        <span className="italic">South Korea</span>, an English and Spanish
+        teacher at an AIESEC Internship in Bursa,{" "}
+        <span className="italic">Turkey</span>, and I am currently working
+        online with students from{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Latin America, The U.S.A., The Netherlands, Japan
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        , and other areas of our wide, interesting world. Experienced in all
+        educational levels from elementary school to university, in local and
+        international contexts. Willing to work and learn something new every
+        day, as well as responsible and respectful towards{" "}
+        <span className="italic">people, culture, and education</span>.
       </p>
     </motion.section>
   );
