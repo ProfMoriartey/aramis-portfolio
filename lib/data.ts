@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import languaTalk from "@/public/languaTalk.png";
-import aiesec from "@/public/aiesec.png";
+import hotAramis from "@/public/hotAramis.png";
 import openEnglish from "@/public/openEnglish.png";
 
 export const links = [
@@ -70,22 +70,22 @@ export const qualificationsData = [
 
 export const servicesData = [
   {
-    title: "LanguaTalk",
+    title: "Personal Lessons",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    imageUrl: languaTalk,
+      "1-on-1 tutoring sessions customizable to the students needs, English and Spanish lessons for all levels and ages.",
+    imageUrl: hotAramis,
   },
   {
     title: "Open English",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "English Language Teacher for Latin American students at one of the largest online English learning platforms in the American continent.",
     imageUrl: openEnglish,
   },
   {
-    title: "Aiesec Program",
+    title: "LanguaTalk",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    imageUrl: aiesec,
+      "1-on-1 sessions with learners from a wide variety of countries, creating study plans and adapting materials according to their learning objectives and linguistic competence.",
+    imageUrl: languaTalk,
   },
 ] as const;
 
