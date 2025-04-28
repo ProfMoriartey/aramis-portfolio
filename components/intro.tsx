@@ -48,7 +48,7 @@ export default function Intro() {
         >
           <span className="font-bold">Hello, I'm Aramis Soto.</span> I'm a{" "}
           <span className="font-bold">Spanish and English tutor</span> with{" "}
-          <span className="font-bold">8 years</span> of experience. I like{" "}
+          <span className="font-bold">10 years</span> of experience. I like{" "}
           <span className="font-bold">food, travelling and extreme sports</span>
           .
         </motion.h1>
